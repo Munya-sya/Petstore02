@@ -1,9 +1,7 @@
 pipeline {
 
     agent {
-        node {
-            label 'main'
-        }
+        any
     }
     environment { 
         PATH = "/root/apictl:$PATH"
